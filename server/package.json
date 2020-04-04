@@ -1,5 +1,5 @@
 {
-  "name": "perfLoad",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "farmhash": "^3.0.0",
+    "socket.io": "^2.3.0",
+    "socket.io-redis": "^5.2.0"
+  }
 }
